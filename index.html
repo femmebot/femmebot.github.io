@@ -13,7 +13,8 @@ layout: home
 <!--         {{ post.content | truncatewords:40}}
  -->  </div>
       
-      <a href="{{ post.proj-url }}" class="small-link spacer" target="_blank">View Project</a><a href="{{ site.baseurl }}{{ post.url }}" class="small-link">Read More</a>
+      <a href="{{ post.proj-url }}" class="small-link primary-link" target="_blank">View Project Site <i class="fa fa-external-link"></i></a>
+      <a href="{{ site.baseurl }}{{ post.url }}" class="small-link">Read details</a>
     </article>
   {% endfor %}
 </div>

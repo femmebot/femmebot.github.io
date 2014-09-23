@@ -21,6 +21,7 @@ body {
 	background: $white;
   font: 16px/23px $helveticaNeue;
   color: $gray;
+  -webkit-font-smoothing: antialiased;
 }
 
 .container {
@@ -32,7 +33,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: $darkerGray;
+  color: $darkGray;
   font-weight: 700;
   line-height: 1.25;
   margin: 0;
@@ -44,9 +45,13 @@ h1, h2, h3, h4, h5, h6 {
 }
   
 h1 {  
-  font-size: 24px;
+  font-size: 60px;
+  margin: 60px 0;
   a {
     color: $red;
+    &:hover {
+      color: $darkRed;
+    }
   }
 }
 
@@ -54,7 +59,6 @@ h1 {
   font-size: 60px;
   letter-spacing: -.03em;
   line-height: 1.1;
-  margin: 60px 0;
 }
 
 #home .post {
@@ -71,7 +75,8 @@ h1 {
   line-height: 1.2;
   min-height: 60px;
   margin: 0 0 12px;
-  letter-spacing: 0;
+  letter-spacing: normal;
+  font-weight: 700;
 }
 
 #home h1.site-name {
@@ -86,15 +91,18 @@ h1 {
 
 h2 {  
   font-size: 24px;
+  margin: 48px 0 12px;
 }
 
 h3 {  
   font-size: 20px;
+  margin: 40px 0 10px;
 }
 
 h4 {  
   font-size: 18px;
   color: $gray;
+  margin: 36px 0 9px;
 }
 
 p {
@@ -113,11 +121,11 @@ p {
 }
 
 a {
-  color: $blue;
+  color: $red;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $red;
+    color: $darkRed;
   }
 }
 
@@ -155,7 +163,7 @@ img {
 }
 
 .date {
-  font-style: italic;
+  font-size: 60%;
   color: $gray;
 }
 
@@ -193,6 +201,9 @@ img {
 //  margin-bottom: 0;
 //}
 
+.content-wrapper {
+  min-height: 600px;
+}
 .masthead {
   padding: 20px 0 0;
   border-bottom: 1px solid $lightGray;
@@ -262,7 +273,7 @@ nav {
   a {
     margin-left: 20px;
     color: $gray;
-    width: 220px;
+    width: 215px;
     display: block;
     float: right;
 
@@ -313,9 +324,20 @@ nav {
   .small-link {
     font-size: 11px;
     color: $medGray;
+    display: block;
       &:hover {
         color: $red;
       }
+  }
+  .large-link {
+    font-size: 20px;
+    color: $darkGray;
+    font-weight: 500;
+  }
+  .primary-link {
+    color: #000;
+    font-size: 13px;
+    font-weight: 500;
   }
   .spacer {
     padding-right: 8px;
@@ -343,11 +365,16 @@ footer {
 #updates form {
   border-top: 1px solid $gray;
   padding: 60px 0;
-  margin-top: 60px;
+  margin-top: 180px;
+  input {
+    font-family: $helveticaNeue;
+  }
 }
 
 #updates #tlemail { 
-  width: 330px;
+
+  box-shadow: none;
+  width: 320px;
   padding: 6px;  
   border: 1px solid $lightGray;
   border-radius: 3px;
