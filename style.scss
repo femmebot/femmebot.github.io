@@ -312,6 +312,12 @@ nav {
 //  border-bottom: none;
 //}
 
+article {
+  @include mobile {
+    margin: 0 20px;
+  }
+}
+
 .post { 
   blockquote {
     margin: 1.8em .8em;
@@ -382,6 +388,10 @@ footer {
   margin-top: 180px;
   input {
     font-family: $helveticaNeue;
+  }
+  @include mobile {
+    margin: 60px 20px 0 20px;
+
   }
 }
 
