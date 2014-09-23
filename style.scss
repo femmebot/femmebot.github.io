@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5, h6 {
   color: $darkerGray;
   font-weight: 700;
   line-height: 1.25;
-  margin: 1em 0 15px;
+  margin: 0;
   padding: 0;
 
   @include mobile {
@@ -50,11 +50,37 @@ h1 {
   }
 }
 
+.post h1 {
+  font-size: 60px;
+  letter-spacing: -.03em;
+  line-height: 1.1;
+  margin: 60px 0;
+}
+
+#home .post {
+  width: 220px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 20px;
+  height: 360px;
+  overflow: hidden;
+}
+
+#home .post h1 {
+  font-size: 24px;
+  line-height: 1.2;
+  min-height: 60px;
+  margin: 0 0 12px;
+}
+
 #home h1.site-name {
   font-size: 90px;
   font-weight: 700;
   max-width: 300px;
-  margin-top: 90px;
+  margin-top: 30px;
+  a {
+    color: $darkGray;
+  }
 }
 
 h2 {  
@@ -79,7 +105,7 @@ p {
   font-weight: 300;
   line-height: 40px;
   max-width: 310px;
-  margin-bottom: 160px;
+  margin-bottom: 120px;
 }
 #home .entry p {
   color: $gray;
@@ -162,14 +188,13 @@ img {
 // .masthead
 //
 
-.wrapper-masthead {
-  margin-bottom: 50px;
-}
+//.wrapper-masthead {
+//  margin-bottom: 0;
+//}
 
 .masthead {
-  padding: 20px 0;
+  padding: 20px 0 0;
   border-bottom: 1px solid $lightGray;
-  
   @include mobile {
     text-align: center;
   }
@@ -209,12 +234,12 @@ img {
   font-family: $helveticaNeue; 
   font-weight: 300;
   font-size: 28px;
-  letter-spacing: 1px;
 }
 
 .site-description {
   margin: -5px 0 0 0;
-  font-size: 16px;
+  font-size: 14px;
+  font-family: $helveticaNeue;
   
   @include mobile {
     margin: 3px 0;
@@ -225,25 +250,24 @@ nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
   font-family: $helveticaNeue; 
-  font-size: 18px;
+  font-size: 12px;
   
   @include mobile {
     float: none;
     margin-top: 9px;
     display: block;
-    font-size: 16px;
   }
 
   a {
     margin-left: 20px;
-    color: $darkGray;
-    text-align: right;
-    font-weight: 300;
-    letter-spacing: 1px;
+    color: $gray;
+    width: 220px;
+    display: block;
+    float: right;
 
     @include mobile {
       margin: 0 10px;
-      color: $blue;
+      color: $red;
     }
   }
 }
@@ -251,20 +275,6 @@ nav {
 //
 // .main
 //
-
-#home .post {
-  width: 220px;
-  display: inline-block;
-  vertical-align: top;
-  margin-right: 20px;
-  height: 300px;
-  overflow: hidden;
-}
-
-#home .post h1 {
-  min-height: 60px;
-  margin-top: 0;
-}
 
 //.posts > .post {
 //  padding-bottom: 2em;
@@ -323,6 +333,44 @@ nav {
 footer {
   padding: 20px 0;
   text-align: center;
+}
+
+/*********************/
+/* NEWSLETTER SIGNUP */
+/*********************/
+
+#updates form {
+  border-top: 1px solid $gray;
+  padding: 60px 0;
+  margin-top: 60px;
+}
+
+#updates #tlemail { 
+  width: 330px;
+  padding: 6px;  
+  border: 1px solid $lightGray;
+  border-radius: 3px;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+#updates h4 {
+  font-weight: 500;
+  color: $darkGray;
+}
+
+.btn-primary { 
+  background-color: $red; 
+  padding: 12px 20px;
+  border: none; 
+  border-radius: 3px;
+  font: 16px $helveticaNeue;
+  color: #fff;
+}
+
+.tinytype { 
+  font: 10px Arial; 
+  color: $medGray;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
