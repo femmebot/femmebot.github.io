@@ -10,9 +10,9 @@ permalink: /about/
 
 25x52 is an experiment. It&rsquo;s a personal initiative to ship 25 projects in 52 weeks. 
 
-Why 52 weeks? I wanted to set a timeline that was long enough to compel a behavior change. 
+Why 52 weeks? I wanted to set a timeline that was long enough to compel a behavior change. In order to change myself from *someone who got things done* to *someone who ships*, I needed to establish a regular habit of launching projects. 
 
-Why 25 projects? It roughly corresponds to launching a project every two weeks which, at the time, seemed sustainable over a 1-year period. Two weeks also would provide enough time to tackle projects that had more substance than typical weekend projects or hackathon demo.
+Why 25 projects? It roughly corresponds to launching a project every two weeks which, at the time, seemed sustainable over a 1-year period. Two weeks also would provide enough time to tackle projects that had more substance than typical weekend hacks.
 
 What&rsquo;s a project? Anything that&rsquo;s useful to someone else. Generally, I&rsquo;m interested in developing projects that help to educate and foster community among creative and product-minded folks.
 
