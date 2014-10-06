@@ -2,10 +2,10 @@
 layout: home
 ---
 
-<div class="posts">
+<div class="posts clearfix">
   {% for post in site.posts %}
     <article class="post">    
-      <div class="eyebrow">No. {{ post.proj-num }}</div>
+      <div class="eyebrow">N° {{ post.proj-num }}</div>
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
       <div class="entry">

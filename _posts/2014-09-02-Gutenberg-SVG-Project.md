@@ -6,5 +6,6 @@ proj-url: http://femmebot.github.io/Gutenberg-SVG/
 proj-num: 03
 ---
 
-A select collection of scanned, bitmap images from Project Gutenberg are converted by hand into vector SVG images.
+A free, monthly collection of select, bitmap images from Project Gutenberg are converted by hand into editable, vector SVG images.
 
+![Gutenberg SVG](../images/03-h.png)

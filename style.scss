@@ -26,7 +26,7 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 960px;
+  max-width: 980px;
   padding: 0 10px;
   width: 100%;
 }
@@ -63,9 +63,8 @@ h1 {
 
 #home .post {
   width: 220px;
-  display: inline-block;
-  vertical-align: top;
-  margin-right: 20px;
+  float: left;
+  margin: 0 20px 0 0;
   height: 360px;
   overflow: hidden;
   @include mobile {
@@ -130,6 +129,17 @@ p {
   color: $gray;
 }
 
+#article-page .entry p {
+  font-family: $helveticaNeue;
+  font-size: 20px;
+  line-height: 28px;
+  max-width: 720px;
+  color: $darkGray;
+  @include mobile {
+
+  }
+}
+
 a {
   color: $red;
   text-decoration: none;
@@ -176,6 +186,7 @@ img {
 .date {
   font-size: 60%;
   color: $gray;
+  margin-bottom: 60px;
 }
 
 // Specify the color of the selection
@@ -271,9 +282,10 @@ img {
 
 nav {
   float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
+  margin-top: 23px;
   font-family: $helveticaNeue; 
-  font-size: 12px;
+  font-size: 13px;
+  font-weight: 500;
   
   @include mobile {
     float: none;
@@ -283,8 +295,8 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $gray;
-    width: 215px;
+    color: #000;
+    width: 225px;
     display: block;
     float: right;
 
@@ -320,28 +332,26 @@ article {
 }
 
 .post { 
+  img {
+    margin: 30px 0;
+  }
   blockquote {
     margin: 1.8em .8em;
-    border-left: 2px solid $gray;
+    border-left: 1px dotted $gray;
     padding: 0.1em 1em;
     color: $gray;
-    font-size: 22px;
-    font-style: italic;
   }
-
   .eyebrow {
     font-size: 12px;
     line-height: 30px;
-    color: $gray;
-    padding-top: 6px;
-    margin-bottom: 6px;
+    color: $darkGray;
+    padding-top: 3px;
+    margin-bottom: 3px;
     border-top: 1px solid $medGray;
   }
-
   .comments {
     margin-top: 10px;
   }
-
   .small-link {
     font-size: 11px;
     color: $medGray;
@@ -352,7 +362,7 @@ article {
   }
   .large-link {
     font-size: 20px;
-    color: $darkGray;
+    color: $red;
     font-weight: 500;
   }
   .primary-link {
@@ -386,7 +396,7 @@ footer {
 #updates form {
   border-top: 1px solid $gray;
   padding: 60px 0;
-  margin-top: 120px;
+  margin-top: 60px;
   input {
     font-family: $helveticaNeue;
   }
