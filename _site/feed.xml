@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>25x52</title>
+    <description>An initiative to launch 25 projects in 52 weeks</description>
+    <link>http://25x52.com</link>
+    <atom:link href="http://25x52.com/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Jekyll Grid Theme</title>
+        <description>&lt;p&gt;I needed a way to chronicle and showcase a growing list of projects for 25x52. Based on some quick research, Jekyll seemed like a good solution especially since my projects are hosted on Github. &lt;/p&gt;
+
+&lt;p&gt;Except I didn’t know Jekyll. &lt;/p&gt;
+
+&lt;p&gt;And all the Jekyll templates I found were either ugly or ill-suited since they were mostly intended to be blog clones. &lt;/p&gt;
+
+&lt;p&gt;So, out of necessity, I needed to make my own. And you’re looking at it. &lt;/p&gt;
+
+&lt;p&gt;Feel free to use it for your own project documentation. Fork it here: &lt;a href=&quot;https://github.com/femmebot/jekyll-grid&quot;&gt;https://github.com/femmebot/jekyll-grid&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 24 Sep 2014 00:00:00 -0400</pubDate>
+        <link>http://25x52.com/Jekyll-Grid/</link>
+        <guid isPermaLink="true">http://25x52.com/Jekyll-Grid/</guid>
+      </item>
+    
+      <item>
+        <title>Project Gutenberg SVG Project</title>
+        <description>&lt;p&gt;A select collection of scanned, bitmap images from Project Gutenberg are converted by hand into vector SVG images.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/03-h.png&quot; alt=&quot;Google Fonts Typography Project&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 02 Sep 2014 00:00:00 -0400</pubDate>
+        <link>http://25x52.com/Gutenberg-SVG-Project/</link>
+        <guid isPermaLink="true">http://25x52.com/Gutenberg-SVG-Project/</guid>
+      </item>
+    
+      <item>
+        <title>Project Moccasin</title>
+        <description>&lt;p&gt;Project Moccasin is an opportunity for designers and product folks to spend a day shadowing a product or design mentor to observe how they work, where they work.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/02-v.png&quot; alt=&quot;Google Fonts Typography Project&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 18 Aug 2014 00:00:00 -0400</pubDate>
+        <link>http://25x52.com/Project-Moccasin/</link>
+        <guid isPermaLink="true">http://25x52.com/Project-Moccasin/</guid>
+      </item>
+    
+      <item>
+        <title>Google Fonts Typography</title>
+        <description>&lt;p&gt;There are over 650 Google web fonts available for free. Problem is, pairing typefaces isn’t easy. And, many of the fonts in Google’s library don’t work well when applied to typical webpage (desktop) layouts. Using passages from the Project Gutenberg transcript of Æsop’s Fables, this collaborative, ongoing project helps provide typographic inspiration for using Google’s free web fonts. &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/01-h.png&quot; alt=&quot;Google Fonts Typography Project&quot; /&gt;
+&lt;img src=&quot;../images/01-v.png&quot; alt=&quot;Google Fonts Typography Project&quot; /&gt;&lt;/p&gt;
+
+&lt;!-- Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below &lt;img class=&#39;emoji&#39; title=&#39;:point_down:&#39; alt=&#39;:point_down:&#39; src=&#39;https://assets.github.com/images/icons/emoji/unicode/1f447.png&#39; height=&#39;20&#39; width=&#39;20&#39; align=&#39;absmiddle&#39; /&gt;).
+
+![_config.yml](/images/config.png)
+
+The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub. --&gt;
+</description>
+        <pubDate>Mon, 04 Aug 2014 00:00:00 -0400</pubDate>
+        <link>http://25x52.com/Google-Fonts-Typography/</link>
+        <guid isPermaLink="true">http://25x52.com/Google-Fonts-Typography/</guid>
+      </item>
+    
+  </channel>
+</rss>
