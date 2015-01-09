@@ -7,6 +7,29 @@
     <atom:link href="http://25x52.com/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>End-of-Year Retrospective</title>
+        <description>&lt;p&gt;The end of the year is a popular time for reflection so I thought it would be a fitting time to share a few lessons I learned through my 25x52 journey.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 08 Jan 2015 00:00:00 -0500</pubDate>
+        <link>http://25x52.com/2014-Retrospective/</link>
+        <guid isPermaLink="true">http://25x52.com/2014-Retrospective/</guid>
+      </item>
+    
+      <item>
+        <title>La8el</title>
+        <description>&lt;p&gt;’Tis that time of the year for giving presents.&lt;/p&gt;
+
+&lt;p&gt;Keeping within the 25x52 spirit of design frugality and resourcefulness, La8el uses foraged, free design elements to create packaging labels that can be customized for your own use. Imagination with the right set of constraints can yield beautiful results.  &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/06-h.png&quot; alt=&quot;Di55ect&quot; /&gt;
+&lt;img src=&quot;../images/06-2-h.png&quot; alt=&quot;Di55ect&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 08 Dec 2014 00:00:00 -0500</pubDate>
+        <link>http://25x52.com/La8el/</link>
+        <guid isPermaLink="true">http://25x52.com/La8el/</guid>
+      </item>
+    
+      <item>
         <title>Di55ect</title>
         <description>&lt;p&gt;Di55ect offers a way to dig deeper into each project and extend the spirit of learning and community. &lt;/p&gt;
 
@@ -66,7 +89,7 @@
     
       <item>
         <title>Google Fonts Typography</title>
-        <description>&lt;p&gt;There are over 650 Google web fonts available for free. Problem is, pairing typefaces isn’t easy. And, many of the fonts in Google’s library don’t work well when applied to typical webpage (desktop) layouts. Using passages from the Project Gutenberg transcript of Æsop’s Fables, this collaborative, ongoing project helps provide typographic inspiration for using Google’s free web fonts. &lt;/p&gt;
+        <description>&lt;p&gt;There are over 650 Google web fonts available for free. Problem is, pairing typefaces isn’t easy. And, many of the fonts in Google’s library don’t work well when applied to typical webpage (desktop) layouts. Using passages from the Project Gutenberg transcript of Æsop’s Fables, this collaborative, ongoing project helps provide typographic inspiration for using Google’s free web fonts.&lt;/p&gt;
 
 &lt;p&gt;View &lt;a href=&quot;http://femmebot.github.io/google-type/&quot;&gt;Google Web Fonts Typographic Project&lt;/a&gt;&lt;/p&gt;
 
@@ -74,14 +97,8 @@
 
 &lt;p&gt;&lt;img src=&quot;../images/01-h.png&quot; alt=&quot;Google Fonts Typography Project&quot; /&gt;
 &lt;img src=&quot;../images/01-v.png&quot; alt=&quot;Google Fonts Typography Project&quot; /&gt;&lt;/p&gt;
-
-&lt;!-- Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below &lt;img class=&#39;emoji&#39; title=&#39;:point_down:&#39; alt=&#39;:point_down:&#39; src=&#39;https://assets.github.com/images/icons/emoji/unicode/1f447.png&#39; height=&#39;20&#39; width=&#39;20&#39; align=&#39;absmiddle&#39; /&gt;).
-
-![_config.yml](/images/config.png)
-
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub. --&gt;
 </description>
-        <pubDate>Mon, 04 Aug 2014 00:00:00 -0400</pubDate>
+        <pubDate>Mon, 11 Aug 2014 00:00:00 -0400</pubDate>
         <link>http://25x52.com/Google-Fonts-Typography/</link>
         <guid isPermaLink="true">http://25x52.com/Google-Fonts-Typography/</guid>
       </item>
