@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 
-### Gettings products shipped > Getting things done
+### Shipping Products is Better than Getting Tasks Done
 
 
 
