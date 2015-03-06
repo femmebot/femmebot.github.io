@@ -7,7 +7,6 @@ permalink: /about/
 
 ### Shipping Products is Better than Getting Tasks Done
 
-
 25x52 is an experiment. It&rsquo;s a personal initiative to ship 25 projects in 52 weeks.
 
 Why 52 weeks? I wanted to set a timeline that was long enough to compel a behavior change. In order to change from **Doing** to **Shipping**, I needed to establish a long-term habit of launching projects.
