@@ -14,5 +14,6 @@ View [Google Web Fonts Typographic Project](http://femmebot.github.io/google-typ
 Fork it on Github: [https://github.com/femmebot/google-type](https://github.com/femmebot/google-type)
 
 
-![Google Fonts Typography Project](../images/01-h.png)
-![Google Fonts Typography Project](../images/01-v.png)
+
+[![{{ page.title }}](../images/01-h.png)]( {{page.proj-url}})
+[![{{ page.title }}](../images/01-v.png)]( {{page.proj-url}})

@@ -8,4 +8,4 @@ proj-num: 03
 
 A free, monthly collection of select, bitmap images from Project Gutenberg are converted by hand into editable, vector SVG images.
 
-![Gutenberg SVG](../images/03-h.png)
+[![{{ page.title }}](../images/03-h.png)]( {{page.proj-url}})
