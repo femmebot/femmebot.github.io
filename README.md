@@ -1,1 +1,1 @@
-website: [http://25x52.com](http://25x52.com)
+website: [https://25x52.site](https://25x52.site)
